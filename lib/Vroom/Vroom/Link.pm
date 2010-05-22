@@ -6,8 +6,6 @@ use strict;
 use warnings;
 use IO::All;
 
-our $VERSION = '0.01';
-
 sub makeHTML {
     my $self = shift;
     require Template::Toolkit::Simple;
@@ -100,6 +98,7 @@ function navigate(e) {
 ...
 }
 
+
 =encoding utf8
 
 =head1 NAME
@@ -134,3 +133,5 @@ under the same terms as Perl itself.
 See http://www.perl.com/perl/misc/Artistic.html
 
 =cut
+
+1;

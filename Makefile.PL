@@ -29,7 +29,7 @@ my %WriteMakefileArgs = (
     'Vroom::Vroom' => '0',
     'parent' => '0'
   },
-  'VERSION' => '0.01',
+  'VERSION' => '0.02',
   'test' => {
     'TESTS' => 't/*.t'
   }
