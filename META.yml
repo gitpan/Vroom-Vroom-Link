@@ -6,16 +6,16 @@ build_requires:
   Test::More: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.31
-generated_by: 'Dist::Zilla version 2.101310'
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 3.101461, CPAN::Meta::Converter version 2.101461'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Vroom-Vroom-Link
-recommends: {}
 requires:
   IO::All: 0
   Template::Toolkit::Simple: 0
   Vroom::Vroom: 0
   parent: 0
-version: 0.03
+version: 0.04

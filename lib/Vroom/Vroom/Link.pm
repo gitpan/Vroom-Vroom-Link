@@ -117,7 +117,7 @@ For extra oomph, clickable links when publishing the slides to HTML.
 
 =head1 SEE
 
-<L: http://search.cpan.org/perldoc?Vroom::Vroom>
+L<http://search.cpan.org/perldoc?Vroom::Vroom>
 
 =head1 AUTHOR
 
