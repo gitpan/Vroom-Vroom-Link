@@ -12,7 +12,8 @@ my %WriteMakefileArgs = (
   'ABSTRACT' => 'Subclass Vroom::Vroom to make clickable links',
   'AUTHOR' => 'Dr Bean <drbean at (a) cpan dot (.) org>',
   'BUILD_REQUIRES' => {
-    'Test::More' => '0'
+    'Test::More' => '0',
+    'Vroom::Vroom' => '0'
   },
   'CONFIGURE_REQUIRES' => {
     'ExtUtils::MakeMaker' => '6.31'
@@ -26,10 +27,10 @@ my %WriteMakefileArgs = (
   'PREREQ_PM' => {
     'IO::All' => '0',
     'Template::Toolkit::Simple' => '0',
-    'Vroom::Vroom' => '0',
+    'Vroom' => '0',
     'parent' => '0'
   },
-  'VERSION' => '0.04',
+  'VERSION' => '0.05',
   'test' => {
     'TESTS' => 't/*.t'
   }

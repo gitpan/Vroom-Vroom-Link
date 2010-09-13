@@ -4,6 +4,7 @@ author:
   - 'Dr Bean <drbean at (a) cpan dot (.) org>'
 build_requires:
   Test::More: 0
+  Vroom::Vroom: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.31
 dynamic_config: 0
@@ -16,6 +17,6 @@ name: Vroom-Vroom-Link
 requires:
   IO::All: 0
   Template::Toolkit::Simple: 0
-  Vroom::Vroom: 0
+  Vroom: 0
   parent: 0
-version: 0.04
+version: 0.05

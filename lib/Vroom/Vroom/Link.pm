@@ -1,6 +1,9 @@
 package Vroom::Vroom::Link;
+BEGIN {
+  $Vroom::Vroom::Link::VERSION = '0.05';
+}
 
-use parent qw/Vroom::Vroom/;
+use parent qw/Vroom/;
 
 use strict;
 use warnings;
