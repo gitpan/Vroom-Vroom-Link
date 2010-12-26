@@ -1,6 +1,6 @@
 name = Vroom-Vroom-Link
 abstract = Subclass Vroom::Vroom to make clickable links
-version = 0.06
+version = 0.05
 author = Dr Bean <drbean at (a) cpan dot (.) org>
 license = Perl_5
 copyright_holder = Dr Bean

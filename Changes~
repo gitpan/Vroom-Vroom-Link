@@ -1,9 +1,4 @@
 ---
-version: 0.06
-date: 一  日 12月 26 12:09:15 CST 2010
-changes:
-- Title from config in HTML title in addition to slide number
----
 version: 0.05
 date: 一  9月 13 14:50:34 CST 2010
 changes:

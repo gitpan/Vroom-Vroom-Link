@@ -1,7 +1,4 @@
 package Vroom::Vroom::Link;
-BEGIN {
-  $Vroom::Vroom::Link::VERSION = '0.06';
-}
 
 use parent qw/Vroom/;
 
@@ -26,7 +23,7 @@ sub makeHTML {
         $text = Template::Toolkit::Simple->new()->render(
             $self->slideTemplate,
             {
-                title => $self->config->{title} . " $slide",
+                title => $self->title . " $slide",
                 prev => $prev,
                 next => $next,
                 content => \@textwithLinks,
